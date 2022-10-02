@@ -1,0 +1,45 @@
+.principal {
+    text-align: center;
+    background: rgb(67, 158, 164);
+    color: aliceblue;
+}
+
+.linea {
+
+    display: flex;
+
+}
+.columna {
+
+    background: rgb(242, 242, 242);
+    color: rgb(13, 10, 10);
+    border: 2px solid black;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgb(88, 48, 119);
+    /*degradado*/
+    width: 20%;
+    box-sizing: border-box;
+}
+.btn-consulta:hover {
+    background: rgb(143, 118, 21);
+}
+
+.btn-consulta {
+    background: rgb(49, 51, 184);
+    display: block;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.btn-consulta:hover {
+    background: rgb(24, 206, 173);
+}
+.desaparece{
+    display: none;
+}
